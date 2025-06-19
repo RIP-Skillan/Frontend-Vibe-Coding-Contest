@@ -8,30 +8,17 @@ import { easing } from 'maath'
 
 const accents = ['#4060ff', '#20ffa0', '#ff4060', '#ffcc00']
 const shuffle = (accent = 0) => [
-  { color: '#444', roughness: 0.1 },
-  { color: '#444', roughness: 0.75 },
-  { color: '#444', roughness: 0.75 },
+  { color: 'black', roughness: 0.1 },
+  { color: 'black', roughness: 0.1 },
   { color: 'white', roughness: 0.1 },
-  { color: 'white', roughness: 0.75 },
   { color: 'white', roughness: 0.1 },
-  { color: accents[accent], roughness: 0.1, accent: true },
-  { color: accents[accent], roughness: 0.75, accent: true },
-  { color: accents[accent], roughness: 0.1, accent: true }
+  { color: 'blue', roughness: 0.1, accent: true },
+  { color: 'blue', roughness: 0.1, accent: true },
 ]
 
 export default function FluidObject() {
   return (
-    <div className="container">
-      <div className="nav">
-        <h1 className="label" />
-        <div />
-        <span className="caption" />
-        <div />
-        <a href="https://lusion.co/">
-          <div className="button">VISIT LUSION</div>
-        </a>
-        <div className="button gray">///</div>
-      </div>
+    <div className="w-full h-100 p-4 rounded-xl overflow-hidden">
       <Scene style={{ borderRadius: 20 }} />
     </div>
   )
