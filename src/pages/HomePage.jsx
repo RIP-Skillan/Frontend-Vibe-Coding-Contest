@@ -1,6 +1,6 @@
 import BrandKitSelector from "../Components/CardBuild";
 import FluidObject from "../Components/FluidObject";
-import AnimatedBarGraph from "../Components/Graph";
+//import AnimatedBarGraph from "../Components/Graph";
 import Parallax from "../Components/Parallax";
 import BSSSection from "../Components/Services";
 import { motion, useScroll, useSpring } from "framer-motion";
@@ -36,8 +36,8 @@ export default function Home() {
         <FluidObject />
         <BrandKitSelector />
         <BSSSection />
-        <AnimatedBarGraph />
       </div>
     </>
+    //<AnimatedBarGraph />
   )
 }

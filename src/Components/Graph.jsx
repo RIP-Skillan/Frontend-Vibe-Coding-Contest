@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+/*import React, { Component } from 'react';
 import CanvasJSReact from '@canvasjs/react-charts';
 import { InView } from 'react-intersection-observer';
 
@@ -61,4 +61,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App;*/
