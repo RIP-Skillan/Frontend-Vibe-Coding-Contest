@@ -21,7 +21,7 @@ export default function LoadingScreen({ onFinish }) {
   return (
     <div className="fixed inset-0 bg-black text-white z-50 flex items-center justify-center overflow-hidden">
       <div className="absolute left-6 bottom-4 text-6xl font-bold tracking-wide">
-        {percent.toString().padStart(2, '0')}<span className="inline-block -ml-2">/</span>
+        {percent.toString().padStart(2, '0')}<span className="inline-block -ml-2">%</span>
       </div>
 
       <motion.div
